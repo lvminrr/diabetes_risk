@@ -10,7 +10,9 @@ Application de Machine Learning qui estime la **probabilité de risque de diabè
 
 > **Projet pédagogique.** Ce n'est ni un dispositif médical ni un outil de diagnostic. Les modèles sont entraînés sur des **données synthétiques**.
 
-<!-- Ajoute ici une capture d'écran de ton app : ![Démo](docs/demo.png) -->
+<p align="center">
+  <img src="docs/demo.png" width="80%" alt="Capture de l'application">
+</p>
 
 ## Fonctionnalités
 
