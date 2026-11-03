@@ -44,8 +44,8 @@ def load_data(path=None) -> pd.DataFrame:
 
 
 def risk_level(p: float):
-    """Probabilité -> niveau de risque (seuils pédagogiques, non cliniques)."""
-    if p < 0.20: return "Faible", "🟢"
-    if p < 0.50: return "Modéré", "🟡"
-    if p < 0.75: return "Élevé", "🟠"
-    return "Très élevé", "🔴"
+    """Probabilité -> (niveau, couleur). Seuils pédagogiques, non cliniques."""
+    if p < 0.20: return "Faible", "#3B7A57"
+    if p < 0.50: return "Modéré", "#B08A1E"
+    if p < 0.75: return "Élevé", "#C2662D"
+    return "Très élevé", "#A63D40"
